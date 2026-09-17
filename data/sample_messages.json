@@ -1,0 +1,121 @@
+[
+  {
+    "message": "em cài CVAT tới bước 2 thì nó báo lỗi đỏ ở dòng nào đó ạ, mọi người xem giúp em với",
+    "label": "MISSING_CONTEXT",
+    "missing": [
+      "thông báo lỗi cụ thể (copy text hoặc ảnh chụp)",
+      "môi trường cài đặt (Windows WSL, Ubuntu, hay macOS)"
+    ]
+  },
+  {
+    "message": "docker compose up -d xong thì Label Studio báo lỗi 500 Internal Server Error, em phải làm sao ạ",
+    "label": "TECH_SUPPORT",
+    "missing": [
+      "output log đầy đủ của container Label Studio (lệnh docker logs)",
+      "phiên bản image đang dùng"
+    ]
+  },
+  {
+    "message": "mình bị lỗi port 8080 already in use khi mở CVAT, có ai từng gặp chưa ạ",
+    "label": "TECH_SUPPORT",
+    "missing": [
+      "hệ điều hành đang chạy (để HD dùng lệnh tìm và kill tiến trình chiếm port)"
+    ]
+  },
+  {
+    "message": "Tool dán nhãn của em bị lỗi không hiển thị ảnh, màn hình cứ đen thui ạ",
+    "label": "MISSING_CONTEXT",
+    "missing": [
+      "tên tool đang sử dụng (CVAT, Label Studio, Labelme...)",
+      "ảnh chụp màn hình lỗi",
+      "log trong tab Console/Network của trình duyệt (nếu dùng web)"
+    ]
+  },
+  {
+    "message": "WSL bật lên rồi mà gõ docker ps vẫn báo command not found, em không start được container để làm lab",
+    "label": "TECH_SUPPORT",
+    "missing": [
+      "phiên bản WSL (1 hay 2)",
+      "trạng thái của Docker Desktop trên Windows"
+    ]
+  },
+  {
+    "message": "Code Python convert format từ YOLO sang COCO của em chạy bị sai tọa độ bounding box, anh chị xem giúp em với",
+    "label": "NEEDS_DETAIL",
+    "missing": [
+      "đoạn code convert đang sử dụng",
+      "một file txt YOLO mẫu đang đưa vào",
+      "kết quả JSON output mong muốn"
+    ]
+  },
+  {
+    "message": "Em export data từ Roboflow về mà bị mất label của class 'vehicle', mọi người biết bị sao không ạ",
+    "label": "NEEDS_DETAIL",
+    "missing": [
+      "định dạng export đã chọn (YOLOv8, COCO, Pascal VOC...)",
+      "ảnh chụp màn hình cấu hình class trên Roboflow trước khi export"
+    ]
+  },
+  {
+    "message": "Lab yêu cầu dán nhãn Semantic Segmentation mà em lỡ dùng Bounding Box hết cả dataset rồi, có script nào convert tự động được không ạ hay phải vẽ lại polygon từ đầu",
+    "label": "NEEDS_DETAIL",
+    "missing": [
+      "số lượng ảnh đã lỡ dán",
+      "tool đã dùng để dán Bounding Box (để check xem có tích hợp SAM/Auto-segment không)"
+    ]
+  },
+  {
+    "message": "Máy em 8GB RAM có chạy nổi local Label Studio + ML backend (YOLOv8) để auto-annotate không ạ",
+    "label": "NEEDS_DETAIL",
+    "missing": [
+      "hệ điều hành (Windows/Mac/Linux)",
+      "có GPU rời không hay chỉ chạy CPU"
+    ]
+  },
+  {
+    "message": "Em dán nhãn bằng Labelme xong chạy script python chuyển sang định dạng YOLO thì báo lỗi KeyError: 'shapes'",
+    "label": "TECH_SUPPORT",
+    "missing": [
+      "file JSON sinh ra từ Labelme (gửi 1 file mẫu)",
+      "traceback lỗi chi tiết trên terminal"
+    ]
+  },
+  {
+    "message": "em dùng macOS cài CVAT tới bước pull image thì đứng luôn không chạy tiếp được nữa",
+    "label": "TECH_SUPPORT",
+    "missing": [
+      "cấu hình resource cấp cho Docker Desktop (RAM, Disk)",
+      "log terminal lúc bị đứng"
+    ]
+  },
+  {
+    "message": "Em submit file annotations.json lên hệ thống chấm điểm của khóa học bị báo format invalid",
+    "label": "MISSING_CONTEXT",
+    "missing": [
+      "thông báo lỗi chi tiết của hệ thống chấm điểm",
+      "file annotations.json mẫu đã submit",
+      "mã bài lab đang làm"
+    ]
+  },
+  {
+    "message": "Em push thư mục dataset hình ảnh lên github báo lỗi file quá lớn, push bị reject ạ",
+    "label": "TECH_SUPPORT",
+    "missing": [
+      "kích thước tổng của dataset và file lớn nhất",
+      "đã cài đặt và track bằng Git LFS chưa"
+    ]
+  },
+  {
+    "message": "Đề bài lab 3 ghi 'gắn nhãn keypoint cho khuôn mặt', là gắn 5 điểm hay 68 điểm vậy ạ?",
+    "label": "NEEDS_DETAIL",
+    "missing": ["tên hoặc link tài liệu đặc tả (Guideline) của bài Lab 3"]
+  },
+  {
+    "message": "Sao em chạy model SAM tích hợp trong CVAT nó cứ báo 'Cannot connect to the ML backend' vậy ạ",
+    "label": "TECH_SUPPORT",
+    "missing": [
+      "output log của service nuclio/ml-backend",
+      "file docker-compose cấu hình phần serverless"
+    ]
+  }
+]
