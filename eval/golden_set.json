@@ -1,0 +1,276 @@
+[
+  {
+    "id": "case_001",
+    "category": "runtime_error",
+    "difficulty": "easy",
+    "input": {
+      "message": "Anh ơi code em lỗi rồi, xem giúp em với ạ.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "error_log",
+        "relevant_code",
+        "environment"
+      ],
+      "action": "ASK_FOR_CONTEXT"
+    },
+    "reason": "Học viên chỉ nói code bị lỗi nhưng không cung cấp lỗi cụ thể, code liên quan hoặc môi trường chạy."
+  },
+  {
+    "id": "case_002",
+    "category": "runtime_error",
+    "difficulty": "easy",
+    "input": {
+      "message": "Em bị lỗi ModuleNotFoundError: No module named 'google'.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "reproduction",
+        "environment"
+      ],
+      "action": "ASK_FOR_CONTEXT"
+    },
+    "reason": "Đã có error message nhưng chưa biết lệnh hoặc code gây lỗi và môi trường đang sử dụng."
+  },
+  {
+    "id": "case_003",
+    "category": "environment_installation",
+    "difficulty": "easy",
+    "input": {
+      "message": "Em chạy `python app.py` trong .venv Python 3.12 trên Windows thì bị `ModuleNotFoundError: No module named 'google'`. Trước đó em đã chạy `pip install google-genai`.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "ENOUGH_CONTEXT",
+      "missing": [],
+      "action": "PASS_TO_TA"
+    },
+    "reason": "Có môi trường, lệnh thực thi, lỗi cụ thể và hành động đã thử; TA có đủ context ban đầu để hỗ trợ."
+  },
+  {
+    "id": "case_004",
+    "category": "code_behavior",
+    "difficulty": "easy",
+    "input": {
+      "message": "Đoạn code này của em không chạy:\n```python\nclient = genai.Client(api_key=API_KEY)\n```\nMọi người xem giúp em với.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "error_log",
+        "actual_behavior",
+        "environment"
+      ],
+      "action": "ASK_FOR_CONTEXT"
+    },
+    "reason": "Có code nhưng câu 'không chạy' chưa mô tả điều gì thực sự xảy ra."
+  },
+  {
+    "id": "case_005",
+    "category": "code_behavior",
+    "difficulty": "medium",
+    "input": {
+      "message": "Em muốn đoạn code này trả về 10 dòng đầu tiên nhưng nó trả về DataFrame rỗng.\n```python\nresult = df[df['score'] > 100].head(10)\nprint(result)\n```\nEm đang dùng Python 3.12, pandas 2.3.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "ENOUGH_CONTEXT",
+      "missing": [],
+      "action": "PASS_TO_TA"
+    },
+    "reason": "Có mục tiêu mong muốn, hành vi thực tế, code liên quan và môi trường đủ để TA bắt đầu phân tích."
+  },
+  {
+    "id": "case_006",
+    "category": "environment_installation",
+    "difficulty": "medium",
+    "input": {
+      "message": "Em cài package rồi nhưng vẫn không import được ạ.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "package_name",
+        "installation_command",
+        "error_log",
+        "environment"
+      ],
+      "action": "ASK_FOR_CONTEXT"
+    },
+    "reason": "Thiếu gần như toàn bộ thông tin cần thiết để xác định lỗi cài đặt."
+  },
+  {
+    "id": "case_007",
+    "category": "environment_installation",
+    "difficulty": "medium",
+    "input": {
+      "message": "Em dùng Windows 11, PowerShell và đã activate `.venv`. Em chạy `pip install google-genai`, terminal báo successful, nhưng khi chạy `python chatbot.py` thì báo `ModuleNotFoundError: No module named 'google'`.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "ENOUGH_CONTEXT",
+      "missing": [],
+      "action": "PASS_TO_TA"
+    },
+    "reason": "Message đã chứa hệ điều hành, environment, lệnh cài, lệnh chạy và lỗi cụ thể."
+  },
+  {
+    "id": "case_008",
+    "category": "runtime_error",
+    "difficulty": "medium",
+    "input": {
+      "message": "Em chạy chương trình xong terminal hiện lỗi như trong ảnh này ạ.",
+      "attachments": [
+        {
+          "type": "image",
+          "content_summary": "Screenshot shows TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+        }
+      ]
+    },
+    "expected": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "relevant_code",
+        "reproduction"
+      ],
+      "action": "ASK_FOR_CONTEXT"
+    },
+    "reason": "Ảnh cung cấp traceback nhưng chưa có đoạn code hoặc thao tác dẫn tới lỗi."
+  },
+  {
+    "id": "case_009",
+    "category": "runtime_error",
+    "difficulty": "hard",
+    "input": {
+      "message": "Em chạy code này thì lỗi ạ:\n```python\nprint(age + 1)\n```\nẢnh lỗi em gửi bên dưới.",
+      "attachments": [
+        {
+          "type": "image",
+          "content_summary": "NameError: name 'age' is not defined"
+        }
+      ]
+    },
+    "expected": {
+      "status": "ENOUGH_CONTEXT",
+      "missing": [],
+      "action": "PASS_TO_TA"
+    },
+    "reason": "Có code liên quan và ảnh chứa lỗi cụ thể; đây là lỗi đơn giản nên context hiện có đủ để TA bắt đầu xử lý."
+  },
+  {
+    "id": "case_010",
+    "category": "concept_question",
+    "difficulty": "medium",
+    "input": {
+      "message": "Mọi người cho em hỏi tại sao A* cần heuristic admissible vậy ạ?",
+      "attachments": []
+    },
+    "expected": {
+      "status": "OUT_OF_SCOPE",
+      "missing": [],
+      "action": "NO_AUTO_REPLY"
+    },
+    "reason": "Đây là câu hỏi kiến thức, không phải câu hỏi debug thiếu context. Bot không nên yêu cầu error log hoặc code."
+  },
+  {
+    "id": "case_011",
+    "category": "logistics",
+    "difficulty": "easy",
+    "input": {
+      "message": "Deadline nộp assignment 2 là mấy giờ ngày mai vậy mọi người?",
+      "attachments": []
+    },
+    "expected": {
+      "status": "OUT_OF_SCOPE",
+      "missing": [],
+      "action": "NO_AUTO_REPLY"
+    },
+    "reason": "Câu hỏi logistics nằm ngoài nhiệm vụ sàng lọc technical debugging question."
+  },
+  {
+    "id": "case_012",
+    "category": "ambiguous",
+    "difficulty": "hard",
+    "input": {
+      "message": "Sao cái này nó cứ như thế nhỉ 😭",
+      "attachments": [
+        {
+          "type": "image",
+          "content_summary": "Screenshot contains a VS Code terminal but error text is partially cut off and unreadable"
+        }
+      ]
+    },
+    "expected": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "problem_description",
+        "readable_error_log",
+        "reproduction"
+      ],
+      "action": "ASK_FOR_CONTEXT"
+    },
+    "reason": "Có ảnh nhưng ảnh không đủ rõ và message không mô tả vấn đề."
+  },
+  {
+    "id": "case_013",
+    "category": "ambiguous",
+    "difficulty": "hard",
+    "input": {
+      "message": "Em nghĩ là lỗi API nhưng không chắc. Lúc được lúc không, em chưa biết gửi phần nào.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "error_log",
+        "reproduction",
+        "environment",
+        "actual_behavior"
+      ],
+      "action": "ASK_FOR_CONTEXT"
+    },
+    "reason": "Người dùng đã xác nhận vấn đề kỹ thuật nhưng chưa cung cấp bằng chứng cụ thể để TA xử lý."
+  },
+  {
+    "id": "case_014",
+    "category": "security_sensitive",
+    "difficulty": "hard",
+    "input": {
+      "message": "Em gọi API bị 401. Code của em:\n```python\nclient = Client(api_key='AIzaSyExampleSecretKey123')\n```\nLỗi: Unauthorized.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "ENOUGH_CONTEXT",
+      "missing": [],
+      "action": "PASS_TO_TA",
+      "flags": [
+        "POSSIBLE_SECRET_EXPOSURE"
+      ]
+    },
+    "reason": "Context kỹ thuật đủ, nhưng message có dấu hiệu lộ API key nên hệ thống nên flag thay vì hỏi thêm context không cần thiết."
+  },
+  {
+    "id": "case_015",
+    "category": "ambiguous_scope",
+    "difficulty": "hard",
+    "input": {
+      "message": "Em train model được accuracy 52%, có phải code của em bị lỗi không ạ? Không có error gì cả.",
+      "attachments": []
+    },
+    "expected": {
+      "status": "UNCERTAIN",
+      "missing": [
+        "expected_behavior",
+        "relevant_code_or_training_setup"
+      ],
+      "action": "NO_AUTO_REPLY"
+    },
+    "reason": "Không rõ đây là bug, vấn đề dữ liệu hay kết quả mô hình bình thường. Auto-reply có nguy cơ hỏi sai loại thông tin nên chuyển về trạng thái không chắc chắn."
+  }
+]
