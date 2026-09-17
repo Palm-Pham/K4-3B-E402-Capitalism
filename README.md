@@ -11,7 +11,7 @@
 | Nguyễn Thị Lê Na   | 2A202602501 |               |                                 |
 | Phạm Đình Bảo Khôi | 2A202602434 |               |                                 |
 | Phạm Thị Thùy Linh | 2A202602909 |               |                                 |
-| Nguyễn Thùy Linh   |             |               |                                 |
+| Nguyễn Thùy Linh   | 2A202602497 |               |                                 |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.
 
