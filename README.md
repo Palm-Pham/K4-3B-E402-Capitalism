@@ -4,14 +4,14 @@
 
 ## 👥 Thành viên nhóm & Phân công vai trò
 
-**Lớp:** 3B · **Phòng:** E402 · **Cụm:** \_\_\_\_ · **Track:** B
+**Lớp:** 3B · **Phòng:** E402 · **Cụm:** C2 · **Track:** B
 
 | Họ và Tên          | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 | ------------------ | ----------- | ------------- | ------------------------------- |
 | Nguyễn Thị Lê Na   | 2A202602501 |               |                                 |
 | Phạm Đình Bảo Khôi |             |               |                                 |
 | Phạm Thị Thùy Linh | 2A202602909 |               |                                 |
-| Nguyễn Thùy Linh   |             |               |                                 |
+| Nguyễn Thùy Linh   | 2A202602497 |               |                                 |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.
 
