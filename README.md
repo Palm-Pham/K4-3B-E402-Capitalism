@@ -4,11 +4,11 @@
 
 ## 👥 Thành viên nhóm & Phân công vai trò
 
-**Lớp:** 3A · **Phòng:** ____ · **Cụm:** ____ · **Track:** ____
+**Lớp:** 3B · **Phòng:** E402 · **Cụm:** ____ · **Track:** ____
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-| Lê Na |  |  |  |
+| Nguyễn Thị Lê Na | 2A202602501 |  |  |
 | Phạm Đình Bảo Khôi |  |  |  |
 | Phạm Thùy Linh |  |  |  |
 | Nguyễn Thùy Linh |  |  |  |
