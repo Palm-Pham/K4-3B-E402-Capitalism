@@ -1,0 +1,35 @@
+# 1. Bảo mật & Biến môi trường (Tuyệt đối không commit)
+.env
+.env.*
+*.pem
+*.key
+token.txt
+
+# 2. Python bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 3. Môi trường ảo (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 4. Dữ liệu nặng hoặc dữ liệu nhạy cảm (Tùy chỉnh nếu cần)
+# data/raw/
+# *.csv
+# *.parquet
+
+# 5. IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 6. File rác hệ điều hành
+.DS_Store
+Thumbs.db
