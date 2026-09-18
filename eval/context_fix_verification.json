@@ -1,0 +1,24 @@
+[
+  {
+    "input": "biến môi trường bị lỗi",
+    "passed": true,
+    "result": {
+      "status": "MISSING_CONTEXT",
+      "missing": [
+        "error_log",
+        "reproduction",
+        "environment"
+      ],
+      "action": "ASK_FOR_CONTEXT",
+      "reply": "Thiếu ngữ cảnh. Vui lòng cung cấp thông tin lỗi theo mẫu dưới đây:\n\n- Thông báo lỗi hoặc traceback (đã che thông tin riêng tư).\n  [Điền thông tin tại đây]\n- Lệnh hoặc các bước ngay trước khi xảy ra lỗi.\n  [Điền thông tin tại đây]\n- Môi trường liên quan: hệ điều hành, công cụ và phiên bản.\n  [Điền thông tin tại đây]\nReply theo mẫu; che khóa API và thông tin riêng tư. Không gửi nguyên file .env. Có thể bỏ qua lời nhắc.",
+      "trace_id": "479cad62c9624a7ab4a112013c50719e",
+      "error": null,
+      "api_called": true,
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "openrouter",
+      "reason": null,
+      "error_message": null,
+      "latency_ms": 13633
+    }
+  }
+]
