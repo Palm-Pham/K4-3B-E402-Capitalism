@@ -5,6 +5,151 @@
     "missing": ["error_log", "relevant_code", "environment"]
   },
   {
+    "message": "Em bị lỗi khi export task medium_instance nhưng chưa biết gửi thông tin gì để mọi người kiểm tra.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["error_log", "export_command", "submission_path"]
+  },
+  {
+    "message": "Ảnh trong CVAT bị trắng sau khi upload, máy em Windows 11 nhưng em chưa gửi ảnh chụp màn hình.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["screenshot", "browser_version", "upload_file_details"]
+  },
+  {
+    "message": "Em không hiểu phải vẽ mask đến đâu ở mép bánh xe, nhờ giải thích giúp.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["image_id", "zoomed_region", "applicable_labeling_rule"]
+  },
+  {
+    "message": "Chạy script chấm điểm ra kết quả thấp, cho em hỏi em làm sai chỗ nào ạ.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["score_output", "task_name", "submission_files"]
+  },
+  {
+    "message": "Em cài Python rồi nhưng notebook không chạy được, mọi người xem giúp em với.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["python_version", "error_log", "selected_interpreter"]
+  },
+  {
+    "message": "Ở checkpoint cp3 em không biết biển báo bị che một phần thì gán nhãn thế nào.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["image_id", "occlusion_extent", "current_annotation"]
+  },
+  {
+    "message": "Em đã Save nhưng không thấy file trong thư mục submissions, nhờ kiểm tra giúp ạ.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["save_steps", "directory_listing", "task_name"]
+  },
+  {
+    "message": "Lệnh cài requirements.txt của em bị fail, em chỉ biết là terminal báo lỗi.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["full_error_log", "python_environment", "install_command"]
+  },
+  {
+    "message": "Em thấy hai object dính vào nhau trong ảnh nhưng chưa biết nên tách mask hay gộp.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["image_id", "object_classes", "annotated_region"]
+  },
+  {
+    "message": "Notebook báo thiếu module khi chạy cell đầu tiên, em dùng Python 3.11 trên Windows và lỗi là ModuleNotFoundError: No module named 'cv2'.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Trong cp4_curb, em gán vùng đường là road và vỉa hè là sidewalk, sau đó Save rồi export đúng file ZIP theo hướng dẫn.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Em chạy `python scoring/score.py submissions/easy.zip`, nhận điểm coverage 0.82 và boundary F1 0.71 cho task easy_semantic.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Máy em Windows 11, Python 3.11.8, đã cài từ requirements.txt, nhưng Jupyter chọn nhầm kernel base thay vì môi trường của lab.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Trong ảnh cp1_holes số 2, xe màu xanh ở giữa ảnh bị che bởi một người; em tạo một instance car riêng và không tô phần bị che.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Em mở được CVAT local tại http://localhost:8080, đăng nhập thành công, nhưng nút Create task bị mờ sau khi em chưa chọn project.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "File classes.json của cp6_coverage khai báo type semantic và có các lớp road, sidewalk, building, vegetation, sky, car, person.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Em đã sửa biên mask của sidewalk ở ảnh 1, Save lại, export lại ZIP và kiểm tra ZIP có annotations.xml.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Lệnh `python -m pip --version` trả về pip 24.2 thuộc Python 3.11.8 trong môi trường lab.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Ở task medium_instance, em đánh dấu ba chiếc xe thành ba instance car tách biệt theo đúng object trong ảnh.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Em không chắc object bị che quá nửa có cần vẽ phần khuất hay chỉ vẽ phần nhìn thấy.",
+    "label": "UNCERTAIN",
+    "missing": ["occlusion_policy", "image_reference"]
+  },
+  {
+    "message": "Vùng màu xám cạnh đường có thể là sidewalk hoặc building, em chưa phân biệt được theo ảnh này.",
+    "label": "UNCERTAIN",
+    "missing": ["class_definition", "image_zoom", "boundary_evidence"]
+  },
+  {
+    "message": "Em phân vân giữa semantic và instance cho checkpoint cp5 vì ảnh có nhiều người đứng gần nhau.",
+    "label": "UNCERTAIN",
+    "missing": ["checkpoint_specification", "task_type"]
+  },
+  {
+    "message": "Không biết một chiếc xe chỉ thấy một phần ở mép ảnh có được tính là một object hoàn chỉnh không.",
+    "label": "UNCERTAIN",
+    "missing": ["truncation_rule", "image_reference"]
+  },
+  {
+    "message": "Hai vùng xanh trong ảnh có vẻ là sky nhưng một vùng có thể là kính tòa nhà, em nên chọn lớp nào?",
+    "label": "UNCERTAIN",
+    "missing": ["class_guideline", "region_coordinates", "visual_evidence"]
+  },
+  {
+    "message": "Em thấy mask road lấn nhẹ vào sidewalk, chưa rõ mức sai biên nào được chấp nhận.",
+    "label": "UNCERTAIN",
+    "missing": ["tolerance_threshold", "image_reference"]
+  },
+  {
+    "message": "Một vùng rất nhỏ màu đỏ ở xa có thể là person hoặc biển báo, em chưa đủ chắc để gán nhãn.",
+    "label": "UNCERTAIN",
+    "missing": ["zoomed_crop", "class_disambiguation_rule"]
+  },
+  {
+    "message": "Em không rõ nên giữ hay xóa annotation cũ do người trước tạo, vì đề chưa nói rõ ai là người chịu trách nhiệm cuối.",
+    "label": "UNCERTAIN",
+    "missing": ["annotation_ownership", "task_revision_policy"]
+  },
+  {
+    "message": "File ZIP có annotations.xml nhưng tên ZIP chưa chắc đúng quy ước chấm bài, em không biết đổi theo mẫu nào.",
+    "label": "UNCERTAIN",
+    "missing": ["naming_convention", "expected_filename"]
+  },
+  {
+    "message": "Em thấy checkpoint cp3 có lớp pole và traffic sign, nhưng chưa rõ cột đèn có được gán là pole hay bỏ qua.",
+    "label": "UNCERTAIN",
+    "missing": ["class_definition", "checkpoint_rule"]
+  },
+  {
     "message": "Em bị lỗi khi mở project annotation nhưng chưa biết cần gửi thông tin gì để kiểm tra.",
     "label": "MISSING_CONTEXT",
     "missing": ["reproduction", "environment"]
