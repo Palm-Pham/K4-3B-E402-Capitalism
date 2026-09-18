@@ -1,0 +1,91 @@
+{
+  "source": "data/discord-pack/k4_messages.csv",
+  "source_sha256": "7f21a27067283fda92e2cc8567a3d8e8d0b7e2ef0b7a9d719db8297892cdbd52",
+  "verified_count": 12,
+  "cases": [
+    {
+      "case_id": "CP3-01",
+      "msg_id": "M07901",
+      "source_text_sha256": "4b1272420404e98a3c84708a138a93a43a2128324157c8a87f326be0f92c2334",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-02",
+      "msg_id": "M19124",
+      "source_text_sha256": "be3ec3d0e7b3ebd92866c11d8d959ef608beb1c7763a205568ebb7debdc5b8be",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-03",
+      "msg_id": "M60122",
+      "source_text_sha256": "6af88901399a5acc0346538fcdda2f737ee34ade382f937e477b158ff5d9d658",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-04",
+      "msg_id": "M28055",
+      "source_text_sha256": "38a6e01f240a41e9eb7437dcf41ff067ba7a56020c47518bf9acb6a410252eb8",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-05",
+      "msg_id": "M89035",
+      "source_text_sha256": "4f5e266c7bed221c306611a989c1a10c2b6eb3475e2323e6efe03f7f90f193c2",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-06",
+      "msg_id": "M84993",
+      "source_text_sha256": "035a04d35e5f72da928e158114e148b079ebdd949401f623c8e2bb2586930e51",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-11",
+      "msg_id": "M51326",
+      "source_text_sha256": "7f490f0637212403d363d3bda49f1cb5e7d104f33e6795a49b59d654edf36f2e",
+      "original_attachments": 2,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-12",
+      "msg_id": "M44947",
+      "source_text_sha256": "a3027ce807d9f4388a23f80fe238310c9443b875db943c0a9703a19958cff986",
+      "original_attachments": 1,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-15",
+      "msg_id": "M40677",
+      "source_text_sha256": "64c6ed36c0868b1e199ff21926bb129a2943c8c7f68414d9b626e31a7ed11882",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-16",
+      "msg_id": "M26168",
+      "source_text_sha256": "9b7147201a1c13ce3136ffe529fc0f262cae12cb1c504193f2fe28fdc79d1eb6",
+      "original_attachments": 0,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-19",
+      "msg_id": "M55571",
+      "source_text_sha256": "e891aa753fc7d7d188142bc2fa8f8e1f7d72ed642f5962e5f1d9c332ba1d9bc3",
+      "original_attachments": 1,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    },
+    {
+      "case_id": "CP3-20",
+      "msg_id": "M27034",
+      "source_text_sha256": "c6ffda713ee60ea8ec6eff67a0f420b223efebddaab08b6a461f0c784cec1d30",
+      "original_attachments": 1,
+      "method": "ID/attachment checks plus author inspection; paraphrase is not an original quote"
+    }
+  ]
+}

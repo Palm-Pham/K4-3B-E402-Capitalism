@@ -4,6 +4,8 @@
 *.pem
 *.key
 token.txt
+.env.example
+
 
 # 2. Python bytecode & Cache
 __pycache__/
@@ -33,3 +35,8 @@ venv.bak/
 # 6. File rác hệ điều hành
 .DS_Store
 Thumbs.db
+# CP3 private evidence
+!.env.example
+eval/private-traces/
+eval/private-runs/
+*.sqlite3

@@ -1,0 +1,504 @@
+{
+  "run_id": "20260918T082705Z",
+  "mode": "live",
+  "label_status": "provisional",
+  "dataset_sha256": "6f4b406609768c6da66a04fd09ba6bc0da7621b12c9eec56edf0fca0466d5a98",
+  "status": "blocked",
+  "attempted": 22,
+  "model_completed": 0,
+  "passed": 0,
+  "failed": 0,
+  "blocked": 22,
+  "pass_rate_percent": null,
+  "end_to_end_pass_percent": null,
+  "ask_precision": null,
+  "ask_recall": null,
+  "coverage": {
+    "total": 22,
+    "real_derived": 12,
+    "taxonomy": {
+      "2": 5,
+      "3": 9,
+      "4": 7,
+      "1": 4
+    },
+    "groups": {
+      "common": 10,
+      "hard": 8,
+      "rare": 4
+    },
+    "empty_pairwise_cells": 139,
+    "not_covered": [
+      "readable images",
+      "multi-turn context",
+      "edited messages",
+      "TA takeover",
+      "dismissal",
+      "Discord restart/dedup integration"
+    ]
+  },
+  "results": [
+    {
+      "id": "CP3-01",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "6d6a534fbe9b4e2591a1620eebcc426a",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-02",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "2478ff04d0f54df5ab712f13a25daf69",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-03",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "7fb125408068495586542b5028f87a6a",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-04",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "d4c35907e48b48f6a9784938d3e4b7d6",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-05",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "d74d4d5b79594ad49fb62371448b9c4a",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-06",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "6d8425c6469b4c30ad3bef30010c07ce",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-07",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "dff6d81abcd64d4abc6adbdfdff31084",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-08",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "9e7a095aa6694e09984f780c05966ecc",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-09",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "71835eab167b4284b266c45d8a983f0b",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-10",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "c962e477a61f40c3954593795719f99e",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-11",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "a03ee673f66045988bf13e15b9e72ac7",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-12",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "3fead50c93d44b23b8e856fc48d92b71",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-13",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "5f11a2ad39b84ac6993453f5aa1959b4",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-14",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "7a5b744c037c4a17a3eecc0364fd4de1",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-15",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "57c811ac990e40fb9628397bafc650b5",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-16",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "ff7a7e5c15fe40ea9b5731a97275b63d",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-17",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "f6dc11d724eb4974b6cdfb7219025c66",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-18",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "42accd8dd5694a6bae9bd2b3cb23c3df",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-19",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "a5158048ad1445feb9968e731a3e830c",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-20",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "b3e6e632d4054b63aa093e11efdf1adb",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-21",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "85d40d9237ee496d844d0daaca6a8fa5",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    },
+    {
+      "id": "CP3-22",
+      "result": {
+        "status": "UNCERTAIN",
+        "missing": [],
+        "action": "NO_AUTO_REPLY",
+        "reply": null,
+        "trace_id": "470290569b5746e989a1648905f91116",
+        "error": "missing_api_key",
+        "api_called": false,
+        "model": "gpt-4o-mini",
+        "reason": null,
+        "latency_ms": 0
+      },
+      "passed": null,
+      "failures": [
+        "infrastructure:missing_api_key"
+      ],
+      "human_grade": null,
+      "human_notes": null
+    }
+  ]
+}

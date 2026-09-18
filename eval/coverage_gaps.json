@@ -1,0 +1,975 @@
+[
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "medium",
+    "value_2": "code_log",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "medium",
+    "value_2": "code_log",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "installation",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "medium",
+    "value_2": "code_log",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "medium",
+    "value_2": "code_log",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "medium",
+    "value_2": "text",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "medium",
+    "value_2": "code_log",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "medium",
+    "value_2": "code_log",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "medium",
+    "value_2": "text",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "medium",
+    "value_2": "code_log",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "medium",
+    "value_2": "text",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "wrong_output",
+    "dimension_2": "medium",
+    "value_2": "unavailable_image",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "installation",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "installation",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "installation",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "installation",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "wrong_output",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "wrong_output",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "wrong_output",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "wrong_output",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "account_authority",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "grading",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "installation",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "logistics",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "mixed_intent",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "ml_training",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "resolved",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "runtime",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "tool",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "wrong_output",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "request_kind",
+    "value_1": "wrong_output",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "code_log",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "code_log",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "code_log",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "code_log",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "text",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "text",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "text",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "text",
+    "dimension_2": "completeness",
+    "value_2": "unknown",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "completeness",
+    "value_2": "ambiguous",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "completeness",
+    "value_2": "contradictory",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "completeness",
+    "value_2": "enough",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "completeness",
+    "value_2": "multiple_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "completeness",
+    "value_2": "not_applicable",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "completeness",
+    "value_2": "one_missing",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "code_log",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "text",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "medium",
+    "value_1": "unavailable_image",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "ambiguous",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "ambiguous",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "ambiguous",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "contradictory",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "contradictory",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "contradictory",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "enough",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "enough",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "enough",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "multiple_missing",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "multiple_missing",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "multiple_missing",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "not_applicable",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "not_applicable",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "not_applicable",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "one_missing",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "one_missing",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "one_missing",
+    "dimension_2": "expected_status",
+    "value_2": "UNCERTAIN",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "unknown",
+    "dimension_2": "expected_status",
+    "value_2": "ENOUGH_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "unknown",
+    "dimension_2": "expected_status",
+    "value_2": "MISSING_CONTEXT",
+    "review": "uncovered_or_inapplicable_requires_review"
+  },
+  {
+    "dimension_1": "completeness",
+    "value_1": "unknown",
+    "dimension_2": "expected_status",
+    "value_2": "OUT_OF_SCOPE",
+    "review": "uncovered_or_inapplicable_requires_review"
+  }
+]
