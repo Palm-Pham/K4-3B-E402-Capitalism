@@ -1,0 +1,168 @@
+[
+  {
+    "message": "Anh/chị ơi, em mở công cụ annotation mà nó cứ không lên, mọi người xem giúp em với ạ.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["error_log", "relevant_code", "environment"]
+  },
+  {
+    "message": "Em vào project dán nhãn thì bị lỗi nhưng chưa rõ cần gửi phần nào để mọi người kiểm tra giúp.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["reproduction", "environment"]
+  },
+  {
+    "message": "Em vừa cài Label Studio nhưng chạy xong không thấy tool mở lên. Em cũng chưa biết cần gửi lệnh cài hay log nào.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["package_name", "installation_command", "error_log", "environment"]
+  },
+  {
+    "message": "Em convert annotation từ YOLO sang COCO thì bounding box bị lệch vị trí so với ảnh gốc. Em đang dùng Python 3.12 với pandas 2.2.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Máy em Windows 11, Docker Desktop đang chạy. Khi em dùng `docker compose up -d` để mở CVAT thì báo `port is already allocated`. Em đã thử sửa port trong file compose nhưng vẫn gặp lỗi.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Script đọc annotation Labelme của em báo `KeyError: 'shapes'`. Em đang dùng Python 3.11 và file JSON hiện có các field như `version` và `imagePath`. Mục tiêu là convert polygon sang YOLO.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Khi export annotation thì terminal hiện lỗi, em có ảnh chụp nhưng chưa biết có cần gửi thêm file cấu hình hay bước nào đã làm trước đó không.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["relevant_code", "reproduction"]
+  },
+  {
+    "message": "Tool dán nhãn của em thỉnh thoảng mở ảnh bình thường, thỉnh thoảng chỉ trắng màn hình. Em chưa lấy log và cũng chưa ghi lại cách tái hiện lỗi.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["error_log", "reproduction", "environment", "actual_behavior"]
+  },
+  {
+    "message": "Cho em hỏi khi nào nên dùng bounding box, polygon và semantic segmentation ạ?",
+    "label": "OUT_OF_SCOPE",
+    "missing": []
+  },
+  {
+    "message": "Cho em hỏi deadline nộp annotation của buổi lab này là mấy giờ vậy ạ?",
+    "label": "OUT_OF_SCOPE",
+    "missing": []
+  },
+  {
+    "message": "Em gọi API Roboflow thì nhận 401 Unauthorized. Trong code hiện tại em đang truyền `api_key='rf_demo_secret_789'` vào client.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": [],
+    "flags": ["POSSIBLE_SECRET_EXPOSURE"]
+  },
+  {
+    "message": "Bộ dữ liệu của em chỉ đạt khoảng 54% mAP. Không có exception nào nhưng em chưa biết là do nhãn sai, dữ liệu khó hay cấu hình train có vấn đề.",
+    "label": "UNCERTAIN",
+    "missing": ["expected_behavior", "relevant_code"]
+  },
+  {
+    "message": "Em đang dùng Ubuntu 22.04. Khi chạy `python convert.py --input labels --format coco` thì báo `FileNotFoundError: annotations.json`. Thư mục input và câu lệnh em đã kiểm tra lại.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Em upload annotation lên Roboflow nhưng không thành công. Em chưa có error message cụ thể, chưa gửi code và cũng chưa nói đang chạy trên hệ điều hành nào.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["error_log", "relevant_code", "environment"]
+  },
+  {
+    "message": "Em export dataset 5 class sang YOLO nhưng file label sinh ra bị trống. Em dùng Roboflow, nhưng chưa gửi cấu hình export hay các bước thao tác.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["relevant_code"]
+  },
+  {
+    "message": "Nếu một vật trong ảnh bị che mất khoảng một nửa thì có cần vẽ bounding box bao quanh phần nhìn thấy không ạ?",
+    "label": "OUT_OF_SCOPE",
+    "missing": []
+  },
+  {
+    "message": "Bài yêu cầu format COCO nhưng em chưa rõ phải nộp một file JSON chung cho cả dataset hay mỗi ảnh một file riêng.",
+    "label": "OUT_OF_SCOPE",
+    "missing": []
+  },
+  {
+    "message": "Em chưa chắc output đúng của bài phải là bounding box hay polygon, nên em cũng chưa xác định được file export hiện tại là đúng hay sai.",
+    "label": "UNCERTAIN",
+    "missing": ["expected_behavior", "relevant_code"]
+  },
+  {
+    "message": "Khi chạy CVAT bằng Docker em gặp `Cannot connect to the Docker daemon`. Em chưa biết nên lấy log nào và cũng chưa rõ hệ điều hành có ảnh hưởng không.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["error_log", "environment", "reproduction"]
+  },
+  {
+    "message": "Em cài `pycocotools` để validate annotation nhưng pip bị fail. Em chưa gửi command cài, error log hoặc thông tin môi trường.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["package_name", "installation_command", "error_log", "environment"]
+  },
+  {
+    "message": "Máy em Ubuntu 22.04, `nvidia-smi` nhận RTX 3060 và em đang dùng PyTorch 2.3, nhưng `torch.cuda.is_available()` lại trả về `False`. Em cần chạy training segmentation bằng GPU.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Em đã activate virtual environment trên Windows 11. Khi chạy script kiểm tra dataset thì báo `ModuleNotFoundError: No module named 'cv2'`. Em đã cài OpenCV bằng pip ngay trong terminal đó.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "CVAT của em có lúc chạy bình thường, có lúc mất kết nối. Em chưa lưu log, chưa ghi lại bước tái hiện và chưa biết version Docker hay OS đang dùng.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["error_log", "reproduction", "environment", "actual_behavior"]
+  },
+  {
+    "message": "Sau khi export annotation, class của một số object bị gán lẫn sang class khác. Em chưa gửi script, bước export hoặc mô tả chi tiết cách lỗi xảy ra.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["problem_description", "relevant_code", "reproduction"]
+  },
+  {
+    "message": "Label Studio của em chỉ đứng ở màn hình loading. Em chưa lấy log và chưa xác định vấn đề xảy ra trên Windows hay WSL.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["error_log", "environment", "reproduction"]
+  },
+  {
+    "message": "Em đã cài một package để kiểm tra COCO nhưng import không được. Em chưa gửi tên package, command cài hay thông báo lỗi.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["package_name", "installation_command", "error_log", "environment"]
+  },
+  {
+    "message": "Sau khi split train/validation, một số ảnh không còn file label tương ứng. Em chưa xác định được bước nào làm mất label và chưa gửi script đang dùng.",
+    "label": "MISSING_CONTEXT",
+    "missing": ["problem_description", "reproduction", "relevant_code"]
+  },
+  {
+    "message": "Trong script convert YOLO sang pixel em dùng `x = int(cx * width)` và `y = int(cy * height)`. Với ảnh 640x480 thì tâm box bị lệch. Em chạy Python 3.12 trên Windows và đã có một input mẫu.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Khi export COCO từ Label Studio em nhận `ValueError: category_id is required`. Em đang dùng Label Studio 1.13 trên Ubuntu 22.04 và lỗi xuất hiện ngay lúc bấm Export.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Các container CVAT đều báo healthy nhưng truy cập `http://localhost:8080` lại nhận 502 Bad Gateway. Em dùng Docker Compose trên Windows 11 và đã xem log gateway.",
+    "label": "ENOUGH_CONTEXT",
+    "missing": []
+  },
+  {
+    "message": "Cho em hỏi công thức tính IoU cho bounding box là gì ạ?",
+    "label": "OUT_OF_SCOPE",
+    "missing": []
+  },
+  {
+    "message": "Đề chỉ yêu cầu xây dựng dataset xe cộ nhưng em chưa rõ xe bị che khuất hoặc biển số có cần gắn nhãn riêng không.",
+    "label": "OUT_OF_SCOPE",
+    "missing": []
+  },
+  {
+    "message": "Hai người kiểm tra cùng một ảnh nhưng cho annotation khác nhau. Em chưa rõ đây là lỗi hay tiêu chí bài cho phép sai khác, và em cũng chưa gửi quy trình kiểm tra hiện tại.",
+    "label": "UNCERTAIN",
+    "missing": ["expected_behavior", "relevant_code_or_training_setup"]
+  }
+]
