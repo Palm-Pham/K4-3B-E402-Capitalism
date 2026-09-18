@@ -26,6 +26,7 @@ Track B được giữ theo dự án của nhóm; job executor là TA, người 
 **Worksheet JTBD / sơ đồ workflow / Canvas CP1 đính kèm:** [Cần bổ sung đường dẫn trong repo]. Nội dung mô tả ở trên chưa thay thế các tệp đính kèm khi nộp.
 
 ### Evidence — chuẩn A và/hoặc B
+Đã có dữ liệu phỏng vấn chuẩn B
 
 | Nội dung | Nguồn hiện có | Trạng thái |
 |---|---|---|

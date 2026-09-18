@@ -1,4 +1,4 @@
-# Thiết kế & Spec — Track B: Trợ lý Discord cho TA
+# §2 · THIẾT KẾ & SPEC *(CP1 → CP4 · spec.md chốt tại hạn chốt spec: 21:00 18/9, tại CP4)*
 
 **Phiên bản:** 0.1 — bản thiết kế đề xuất, chưa xác nhận bằng thử nghiệm.  
 **Ngày soạn:** 17/09/2026.  
