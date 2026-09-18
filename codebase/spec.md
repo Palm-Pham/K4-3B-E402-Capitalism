@@ -70,7 +70,7 @@ Công thức cần báo cáo:
 | B. Bot tự nhận diện phần thiếu và hỏi bổ sung | Chưa đo; có tín hiệu từ 1 TA | Phù hợp lát cắt, cần kiểm tra phân loại và ảnh | **Chọn tạm thời** vì sát pain nhóm nêu, không phải chốt đáp án kỹ thuật |
 | C. Bot tự chẩn đoán và trả lời lỗi | Chưa đo | Khó hơn; cần kiểm chứng tính đúng của giải pháp | Loại khỏi MVP do hậu quả trả lời sai và vượt phạm vi nhóm đã chọn |
 
-Không điền số impact giả. Quyết định B hiện dựa vào phạm vi và cost-of-error; cần bổ sung dữ liệu để đáp ứng bảng impact của guide.
+Không điền số impact giả. Quyết định B hiện dựa vào phạm vi và chi phí sai sót/cost-of-error; cần bổ sung dữ liệu để đáp ứng bảng impact của guide.
 
 **Ứng viên đã loại khỏi MVP:** A được giữ làm baseline, không chọn làm tính năng chính vì chưa xử lý việc nhận diện phần thiếu trong tin nhắn tự nhiên; C bị loại vì cần chẩn đoán và xác minh lời giải, vượt phạm vi và có hậu quả sai cao hơn.
 
