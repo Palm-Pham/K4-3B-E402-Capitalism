@@ -178,6 +178,6 @@
   {
     "message": "Em thấy một số ảnh có hai người kiểm tra cho kết quả khác nhau, chưa rõ đó là lỗi annotation hay tiêu chí của bài cho phép sai khác; em cũng chưa gửi quy trình kiểm tra hoặc cấu hình dataset.",
     "label": "UNCERTAIN",
-    "missing": ["expected_behavior", "relevant_code_or_training_setup"]
+    "missing": ["expected_behavior", "relevant_code"]
   }
 ]
