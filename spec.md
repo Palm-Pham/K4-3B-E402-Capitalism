@@ -67,14 +67,13 @@ Trong **14 case `MISSING_CONTEXT`**, các trường bị thiếu xuất hiện:
 |---|---:|---:|
 | `environment` | 10 | 71.4% |
 | `error_log` | 9 | 64.3% |
-| `relevant_code` | 8 | 57.1% |
+| `relevant_code` | 9 | 64.3% |
 | `reproduction` | 8 | 57.1% |
 | `package_name` | 3 | 21.4% |
 | `installation_command` | 3 | 21.4% |
 | `expected_behavior` | 3 | 21.4% |
 | `actual_behavior` | 2 | 14.3% |
 | `problem_description` | 2 | 14.3% |
-| `relevant_code_or_training_setup` | 1 | 7.1% |
 
 **Diễn giải cho thiết kế:** câu hỏi bổ sung nên ưu tiên theo ngữ cảnh từng case, đặc biệt `environment`, `error_log`, `reproduction` và `relevant_code`, thay vì gửi một checklist dài giống nhau cho mọi học viên.
 
