@@ -1,4 +1,4 @@
-# AI SPEC — Sàng lọc câu hỏi thiếu ngữ cảnh trên Discord cho TA · Nhóm [Điền mã nhóm] · Zone [Điền zone]
+# AI SPEC — Sàng lọc câu hỏi thiếu ngữ cảnh trên Discord cho TA · Nhóm Capitalism · Zone C2
 
 Hướng: [ ] A — VLearn  [x] B — Trợ lý Học viên  [ ] C — Làn mở  
 Loại: [ ] Tối ưu tính năng có sẵn  [x] Tính năng mới
